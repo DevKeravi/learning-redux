@@ -1,4 +1,8 @@
 import { createStore } from "redux";
+
+const reducer = (state=[] , action) => {
+  
+}
 const add = document.getElementById("add");
 const minus = document.getElementById("minus");
 const number = document.querySelector("span");
