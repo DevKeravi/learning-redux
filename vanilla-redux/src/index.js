@@ -68,4 +68,3 @@ store.subscribe(() => console.log(store.getState()));
 store.subscribe(paintToDos);
 
 form.addEventListener("submit", onSubmit);
-
